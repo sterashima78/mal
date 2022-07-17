@@ -1,0 +1,2 @@
+#!/bin/bash
+exec node --loader ts-node/esm $(dirname $0)/src/${STEP:-stepA_mal}.ts "${@}"
